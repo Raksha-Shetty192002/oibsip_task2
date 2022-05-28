@@ -1,0 +1,85 @@
+/* General Styling */
+* {
+    margin: 0;
+  }
+  body {
+    height: 100%;
+    font-size: 1.5em;
+    font-family: "HelveticaNeue", Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #222;
+  }
+  html {
+    font-size: 10px;
+  }
+
+  /* Styling first div */
+  
+  #first-div {
+    background-color: rgba(241, 231, 219, 0.888);
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  
+  #first-div-text {
+    order: 1;
+    flex-grow: 1;
+    min-width: 30%;
+    margin-top: 25vh;
+    font-size: 2.3em;
+    font-family: "roboto", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25vh;
+  }
+  
+  #lata-ji{
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #first-div-image {
+    order: 2;
+    flex-grow: 1;
+    min-width: 45%;
+    align-self: center;
+    max-width: 400px;
+    margin-right: 6%;
+  }
+  
+  /* for the image to be displayed efficiently */
+  #heeraji-image {
+    max-width: 100%;
+    box-sizing: border-box;
+    float: right;
+    
+  }
+  
+  /* Styling second div */
+  
+  #second-div {
+    background-color: rgba(249, 243, 243, 0.945);
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6% 1%;
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+  }
+  
+  /* Author Text */
+  
+  #author-text {
+    color: rgb(228, 32, 211);
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 0.6vh;
+  }
